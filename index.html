@@ -11,7 +11,7 @@
 <body class="container">
     <article class="start">
         <h1 class="mt-5 text-center">내가 어쩔 수 없이 힐러를 맡는다면?</h1>
-        <button type="button" class="btn btn-primary mt-5" onclick="start();">테스트 시작하기</button>
+        <button type="button" class="btn_basic mt-5" onclick="start();">테스트 시작하기</button>
     </article>
     
     <article class="question">
@@ -23,8 +23,8 @@
 
         <h2 id="title" class="text-center mt-5">문제</h2>
         <input id="type" type="hidden" value="EI">
-        <button id="A" type="button" class="btn btn-light mt-3">Light</button>
-        <button id="B" type="button" class="btn btn-light mt-3">Light</button>
+        <button id="A" type="button" class="button_top">Light</button>
+        <button id="B" type="button" class="button_bot">Light</button>
     </article>
 
     <article class="result">
@@ -43,7 +43,7 @@
     <script>
         var num=1;
         var q={
-            1:{"title":"문제 1번","type":"EI","A":"E","B":"I"},
+            1:{"title":"문제 1번 <br> ","type":"EI","A":"E","B":"I"},
             2:{"title":"문제 2번","type":"EI","A":"E","B":"I"},
             3:{"title":"문제 3번","type":"EI","A":"E","B":"I"},
             4:{"title":"문제 4번","type":"SN","A":"S","B":"N"},
@@ -57,11 +57,11 @@
             12:{"title":"문제 12번","type":"JP","A":"J","B":"P"},
         }
         var result = {
-            "ISFJ":{"animal": "하마", "explain":"하마 설명", "img":"lion.jpg"},
+            "ISFJ":{"animal": "버프면 버프, 힐이면 힐. 다 드려요. <br>'그저 빛'", "explain":"하마 설명", "img":"lion.jpg"},
             "ISFP":{"animal": "호랑이", "explain":"하마 설명", "img":"lion.jpg"},
             "ESFP":{"animal": "생쥐", "explain":"하마 설명", "img":"lion.jpg"},
             "ESFJ":{"animal": "소", "explain":"하마 설명", "img":"lion.jpg"},
-            "INFJ":{"animal": "닭", "explain":"하마 설명", "img":"lion.jpg"},
+            "INFJ":{"animal": "내 부캐가 힐러다. '물만난 물고기'", "explain":"하마 설명", "img":"lion.jpg"},
             "INFP":{"animal": "토끼", "explain":"하마 설명", "img":"lion.jpg"},
             "ENFP":{"animal": "원숭이", "explain":"하마 설명", "img":"lion.jpg"},
             "INTJ":{"animal": "사자", "explain":"하마 설명", "img":"lion.jpg"},
