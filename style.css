@@ -21,11 +21,8 @@ article{
 
 #img{
     margin: 0px auto;
-<<<<<<< HEAD
-=======
     width:300px;
     height:300px;
->>>>>>> ec6dfdbdd5a82c2feb438b11c2f41618a4487e92
 }
 
 .btn_basic{
@@ -41,7 +38,6 @@ article>h1{
     font-size: 22px;
     font-weight: 500;
 }
-<<<<<<< HEAD
 
 .button_top{
     margin-top:50px;
@@ -63,7 +59,5 @@ article>h1{
 
 .button_top:hover
 ,.button_bot:hover{
-    background-color: #67a843;
+    background-color: #f0f0f0;
 }
-=======
->>>>>>> ec6dfdbdd5a82c2feb438b11c2f41618a4487e92
